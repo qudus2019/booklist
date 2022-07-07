@@ -105,6 +105,7 @@ input[type="submit"]:hover{
 ul{
     width:89vw;
     margin:10px auto;
+    padding:0px;
 }
     .btn{
         width:fit-content;
