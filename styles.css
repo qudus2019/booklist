@@ -1,0 +1,150 @@
+
+body{
+    padding:10px;
+    font-family: monospace;
+}
+
+.title{
+    margin:10px auto;
+}
+
+ul{
+    list-style-type: none;
+    width:60vw;
+    max-width: 80%;
+    padding:10px;
+    
+   
+}
+
+ul li{
+    padding:5px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    transition: all 500ms linear;
+    position:relative;
+}
+
+
+ul li:hover{
+    transform: translateX(1%);
+}
+
+li div p {
+    font-style:italic;
+    font-size:larger;
+    color:rgb(47, 45, 45);
+}
+.border{
+    border-left:4px solid black;
+    border-left:4px solid black;
+    
+}
+
+.btn{
+    width:fit-content;
+    height: fit-content;
+    padding:15px;
+    border:none;
+    background: black;
+    color:white;
+    margin:40px;
+    transition: all 400ms;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+input[type="text"]{
+    width: 50%;
+    height:40px;
+    font-size: larger;   
+}
+
+form{
+    margin: 0 40px;
+}
+
+input[type="submit"]{
+    background-color: bisque;
+    width:100px;
+    height:48px;
+    border-radius: 5px;
+    margin-left: 30px;
+    transition:all 400ms;
+}
+
+input[type="submit"]:hover{
+    background-color: black;
+    color:white;
+}
+.read {
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+
+#author{
+    width:20%;
+    display:inline;
+}
+
+#book{
+    width: 30%;
+}
+
+@media screen and (max-width:500px){
+    ul li{
+       display: block;
+       
+    }
+ul{
+    width:80vw;
+    margin:10px auto;
+}
+    .btn{
+        width:fit-content;
+        height: fit-content;
+        padding:7px;
+        border:none;
+        background: black;
+        color:white;
+        margin:0px;
+    }
+
+    
+    h1{
+font-size: 1.3rem;
+}
+
+h1.title{
+    margin:10px auto;
+    font-size:1.5rem;
+}
+    input[type="text"]{
+        width: 100%;
+        font-size: large;   
+    }
+
+    input[type="submit"]{
+        background-color: bisque;
+        width:30%;
+        margin:20px 5px;
+    }
+    
+    #author{
+        width:50%;
+        display:inline;
+    }
+    
+    #book{
+        width: 80%;
+    }
+    
+
+    
+}

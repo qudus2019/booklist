@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     
+    <h1 class="title">Book Books Books</h1>
+
+    <form action="#" name="searchform" id="searchh">
+        
+        <label for="book"></label> <br><br>
+
+        <input type="text" placeholder="Search book by title or author" id="searchbook" name="search">
+       
+    </form><br>
+
+
+    <ul>
+        
+        <li>
+            <div>
+                    <h1>There Was a Country</h1>
+                    <p>By Chinua Achebe</p>
+                </div>
+                <button class="btn">delete</button>
+            </li>
+    
+            
+            <li>
+                
+                <div>
+                    <h1>Half Of The Yellow Sun</h1>
+                    <p>By Chimamanda Ngozie Adichie </p>
+                </div>
+                <button class="btn">Delete</button>
+        
+            </li>
+    
+            
+            <li>
+                    <div>
+                    <h1>Things Fall Apart</h1>
+                    <p>By Chinua Achebe</p>
+                </div>
+                <button class="btn">Delete</button>
+         
+            </li>
+    
+            <li>
+                
+                <div>
+                    <h1>Harry Potter and The Philosopher's Stone</h1>
+                    <p>By JK Rowlings </p>
+                </div>
+                <button class="btn">Delete</button>
+        
+            </li>
+    
+    </ul><br><br>
+    <form action="#" name="hide" id="hideall">
+    
+        <label for="book">Hide all books</label>
+        <input type="checkbox" id="hide" name="hideAll">
+    </form><br>
+
+
+    
+    <form action="#" name="addbook" id="add">
+        
+        <label for="book"></label> <br><br>
+
+        <input type="text" placeholder="Book title" id="book" name="bookname"><br><br>
+        <input type="text" placeholder="Author name" id="author" name="authorname">
+        <input type="submit" value="Add">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
